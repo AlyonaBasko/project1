@@ -1,0 +1,16 @@
+header {
+  background-image: url("../img/fon1.png");
+  background-color: #2a4f6b;
+  height: 1050px;
+  min-height: auto;
+  width: 1970px;
+}
+header.navigation{
+  height: 101px;
+}
+header.navigation-block{
+  width: 100%;
+  position: absolute;
+
+  
+}
