@@ -5,12 +5,282 @@ header {
   min-height: auto;
   width: 1970px;
 }
-header.navigation{
-  height: 101px;
-}
-header.navigation-block{
-  width: 100%;
-  position: absolute;
 
-  
+.round {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid white;
+  line-height: 140px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 101px;
+  left: 400px;
+}
+.navigation {
+  margin: 0;
+  padding: 0;
+  width: 810px;
+  text-align: center;
+}
+.navigation li{
+  display: inline;
+}
+.navigation a {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  top: 101px;
+  left: 762px;
+  position: absolute;
+  width: 810px;
+  text-decoration: none;
+  padding: 40px 70px ;
+}
+.container-header h2 {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 490px;
+  left: 745px;
+  line-height: 20px;
+}
+.container-header h1{
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  position: absolute;
+  top: 510px;
+  left: 460px;
+  margin-bottom: 30px;
+}
+.container-header h3 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 605px;
+  left: 725px;
+}
+.container-header button {
+  color: white;
+  width: 160px;
+  height: 43px;
+  position: absolute;
+  top: 735px;
+  left: 905px;
+  background: #f39c12;
+}
+.container-header img{
+  position: absolute;
+  top: 766px;
+  left: 978px;
+}
+
+.container-description span {
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 1208px;
+  left: 478px;
+}
+.container-description a{
+  font-size: 12px;
+  position: absolute;
+  top: 1204px;
+  left: 622px;
+}
+.industry-small img{
+  height: 42px;
+  width: 28px;
+  position: absolute;
+  top: 1437px;
+  left: 448px;
+
+}
+.round-1{
+  height: 125px;
+  width: 125px;
+  border-radius: 100%;
+  border: 2px solid #f39c12;
+  position: absolute;
+  top: 1394px;
+  left: 400px;
+}
+.industry-small h4{
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 1395px;
+  left: 555px;
+}
+.industry-small a{
+  font-size: 16px;
+  color: red;
+  line-height: 15px;
+  position: absolute;
+  top: 1438px;
+  left: 555px;
+}
+.industry-small p{
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  top: 1522px;
+  left: 555px;
+}
+.square{
+  width: 450px;
+  height: 255px;
+  background: #e74c3c;
+  position: absolute;
+  top: 1390px;
+  left: 1129px;
+}
+.square img{
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 1945px;
+  left: 1060px;
+}
+.iphone{
+  height: 335px;
+  width: 159px;
+  position: absolute;
+  top: 2040px;
+  left: 457px;
+  z-index: 5;
+}
+.ipad{
+  height: 483px;
+  width: 372px;
+  position: absolute;
+  top: 1890px;
+  left: 547px;
+}
+.apple img:hover{
+  z-index: 10;
+}
+.circle {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 2px solid #f39c12;
+  position: absolute;
+  top: 1895px;
+  left: 1015px;
+}
+.circle img{
+  height: 32px;
+  width: 32px;position: absolute;
+  top: 1942px;
+  left: 1062px;
+  z-index: auto;
+}
+.container-skills h4{
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 1895px;
+  left: 1170px;
+}
+.container-skills p{
+  font-size: 12px;
+  color: #737373;
+  position: absolute;
+  top: 1935px;
+  left: 1170px;
+}
+.desing h3{
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 2106px;
+  left: 1016px;
+}
+.desing img{
+  height: 10px;
+  width: 553px;
+  position: absolute;
+  top: 2132px;
+  left: 1016px;
+}
+.development h3{
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 2186px;
+  left: 1016px;
+}
+.development img{
+  height: 10px;
+  width: 553px;
+  position: absolute;
+  top: 2212px;
+  left: 1016px;
+}
+.wordpress h3{
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 2266px;
+  left: 1016px;
+}
+.wordpress img{
+  height: 10px;
+  width: 553px;
+  position: absolute;
+  top: 2292px;
+  left: 1016px;
+}
+.drupal h3{
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 2346px;
+  left: 1016px;
+}
+.drupal img{
+  height: 10px;
+  width: 553px;
+  position: absolute;
+  top: 2372px;
+  left: 1016px;
+}
+.banner{
+  background-image: url("../img/Untitled-12.png");
+  background-color: #2a4f6b;
+  height: 600px;
+  width: 1970px;
+  min-height: auto;
+  position: absolute;
+  top: 2482px;
+  background-size: cover;
+}
+.banner h2{
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
+  position: center;
+}
+.banner h4{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  position: center;
+}
+.team h3{
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 3290px;
+  left: 497px;
+}
+.team p{
+  font-size: 12px;
+  position: absolute;
+  top: 3286px;
+  left: 623px;
 }
